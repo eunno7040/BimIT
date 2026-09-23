@@ -22,6 +22,7 @@ namespace Enl
             UIDocument uiDoc = uiApp.ActiveUIDocument;
             Document doc = uiDoc.Document;
 
+            //github 연습중
             //Reference r = uIDoc.Selection.PickObject(ObjectType.Element, "객체를 선택하세요");
             //Element e = doc.GetElement(r);
             //TaskDialog.Show("선택한 객체의 이름은 : ", e.Name);
