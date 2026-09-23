@@ -9,6 +9,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.ApplicationServices;
+using Autodesk.Revit.DB.Structure;
 
 
 
@@ -58,5 +59,39 @@ namespace Enl
 
         }
 
+
+        /// <summary>
+        /// xyz 좌표 리스트를 받아서 curve 리스트로 변환하는 함수
+        /// </summary>
+        /// <param name="points"></param>
+        /// <returns></returns>
+        public static List<Curve> GetCurvesListFromPts(List<XYZ> points)
+        {
+            List<Curve> curves = new List<Curve>();
+
+            for (int i = 0; i < points.Count -1; i++)
+            {
+                Line line = Line.CreateBound(points[i], points[i + 1]);
+                curves.Add(line);
+            }
+
+            return curves;
+        }
+
+
+
+        public static void CreateFamilyInstanceFromCuvve(List<Curve> c, FamilySymbol fs, Level level, Document doc)
+        {
+            foreach (Curve item in c)
+            {
+                using (Transaction trans = new Transaction(doc, "Create Beam"))
+                {
+                    trans.Start();
+                    fs.Activate();
+                    FamilyInstance fi = doc.Create.NewFamilyInstance(item, fs, level, StructuralType.Beam);
+                    trans.Commit();
+                }
+            }
+        }
     }
 }

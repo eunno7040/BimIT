@@ -11,3 +11,4 @@ C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0-windows\refint\Enl.dll
 C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0-windows\Enl.pdb
 C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0-windows\ref\Enl.dll
 C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0-windows\Enl.csproj.Up2Date
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0-windows\Enl.sourcelink.json
