@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Enl\Enl\bin\Debug\net8.0\Enl.deps.json
+C:\Users\User\Desktop\Enl\Enl\bin\Debug\net8.0\Enl.dll
+C:\Users\User\Desktop\Enl\Enl\bin\Debug\net8.0\Enl.pdb
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.AssemblyInfo.cs
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.dll
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\refint\Enl.dll
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.pdb
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\ref\Enl.dll
+C:\Users\User\Desktop\Enl\Enl\obj\Debug\net8.0\Enl.csproj.Up2Date
