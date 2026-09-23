@@ -30,7 +30,7 @@ namespace Enl
             List<Curve> curves = new List<Curve>();
             foreach (EdgeArray edgeArray in edgeArrays)
             {
-                foreach (Edge edge in edgeArrays)
+                foreach (Edge edge in edgeArray)
                 {
                     Curve c = edge.AsCurve();
                     curves.Add(c);
